@@ -15,7 +15,10 @@
 		2E5E871826DD1400005DBC0A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E871526DD1400005DBC0A /* APIError.swift */; };
 		2E5E871926DD1400005DBC0A /* APIRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E871626DD1400005DBC0A /* APIRequestProtocol.swift */; };
 		2E5E871A26DD1400005DBC0A /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E871726DD1400005DBC0A /* APIRequest.swift */; };
-		2E5E871D26DD140A005DBC0A /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E871C26DD140A005DBC0A /* PhotoViewModel.swift */; };
+		2E5E871D26DD140A005DBC0A /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E871C26DD140A005DBC0A /* PhotosViewModel.swift */; };
+		2E5E872C26DD1C4C005DBC0A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E872926DD1C4C005DBC0A /* ErrorView.swift */; };
+		2E5E872D26DD1C4C005DBC0A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E872A26DD1C4C005DBC0A /* LoadingView.swift */; };
+		2E5E872E26DD1C4C005DBC0A /* PhotosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E872B26DD1C4C005DBC0A /* PhotosListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +32,10 @@
 		2E5E871526DD1400005DBC0A /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		2E5E871626DD1400005DBC0A /* APIRequestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestProtocol.swift; sourceTree = "<group>"; };
 		2E5E871726DD1400005DBC0A /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
-		2E5E871C26DD140A005DBC0A /* PhotoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		2E5E871C26DD140A005DBC0A /* PhotosViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
+		2E5E872926DD1C4C005DBC0A /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		2E5E872A26DD1C4C005DBC0A /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2E5E872B26DD1C4C005DBC0A /* PhotosListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +110,7 @@
 		2E5E871B26DD140A005DBC0A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				2E5E871C26DD140A005DBC0A /* PhotoViewModel.swift */,
+				2E5E871C26DD140A005DBC0A /* PhotosViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -112,6 +118,9 @@
 		2E5E871E26DD1411005DBC0A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E5E872B26DD1C4C005DBC0A /* PhotosListView.swift */,
+				2E5E872926DD1C4C005DBC0A /* ErrorView.swift */,
+				2E5E872A26DD1C4C005DBC0A /* LoadingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,10 +197,13 @@
 				2E5E870526DD05D7005DBC0A /* ContentView.swift in Sources */,
 				2E5E871926DD1400005DBC0A /* APIRequestProtocol.swift in Sources */,
 				2E5E871826DD1400005DBC0A /* APIError.swift in Sources */,
-				2E5E871D26DD140A005DBC0A /* PhotoViewModel.swift in Sources */,
+				2E5E871D26DD140A005DBC0A /* PhotosViewModel.swift in Sources */,
+				2E5E872E26DD1C4C005DBC0A /* PhotosListView.swift in Sources */,
 				2E5E870326DD05D7005DBC0A /* PhotosApp.swift in Sources */,
 				2E5E871A26DD1400005DBC0A /* APIRequest.swift in Sources */,
 				2E5E871326DD13F1005DBC0A /* Photo.swift in Sources */,
+				2E5E872C26DD1C4C005DBC0A /* ErrorView.swift in Sources */,
+				2E5E872D26DD1C4C005DBC0A /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

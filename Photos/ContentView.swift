@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var viewModel = PhotoViewModel()
+    @StateObject var viewModel = PhotosViewModel()
     
     var body: some View {
-        List {
-            ForEach(viewModel.photos) { photo in
-                Text(photo.title)
-            }
+        if viewModel.isLoading {
+            LoadingView()
+        } else if viewModel.errorMessage != nil {
+            ErrorView(viewModel: viewModel)
+        } else {
+            PhotosListView(photos: viewModel.photos)
         }
     }
 }

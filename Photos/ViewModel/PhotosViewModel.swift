@@ -7,7 +7,7 @@
 
 import Foundation
 
-class PhotoViewModel: ObservableObject {
+class PhotosViewModel: ObservableObject {
     
     @Published var photos = [Photo]()
     @Published var isLoading: Bool = false
