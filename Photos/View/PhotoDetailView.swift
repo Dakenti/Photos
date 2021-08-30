@@ -6,13 +6,22 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct PhotoDetailView: View {
     let photo: Photo
+    let imageSize: CGFloat = 300
     
     var body: some View {
         ScrollView {
             VStack(alignment: .center) {
+                if let imageURL = URL(string: photo.url) {
+                    KFImage(imageURL)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: imageSize)
+                        .clipped()
+                }
                 VStack(alignment: .leading, spacing: 8) {
                     HStack {
                         Text("Title: \(photo.title)")
