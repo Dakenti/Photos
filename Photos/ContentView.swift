@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = PhotoViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List {
+            ForEach(viewModel.photos) { photo in
+                Text(photo.title)
+            }
+        }
     }
 }
 
