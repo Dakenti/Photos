@@ -14,7 +14,11 @@ struct PhotosListView: View {
         NavigationView {
             List {
                 ForEach(photos) { photo in
-                    Text(photo.title)
+                    NavigationLink(
+                        destination: PhotoDetailView(photo: photo))
+                    {
+                        PhotoRow(photo: photo)
+                    }
                 }
             }
             .listStyle(PlainListStyle())
@@ -23,7 +27,7 @@ struct PhotosListView: View {
     }
 }
 
-struct PhotosView_Previews: PreviewProvider {
+struct PhotosListView_Previews: PreviewProvider {
     static var previews: some View {
         PhotosListView(photos: [])
     }

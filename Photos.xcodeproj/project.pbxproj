@@ -19,6 +19,8 @@
 		2E5E872C26DD1C4C005DBC0A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E872926DD1C4C005DBC0A /* ErrorView.swift */; };
 		2E5E872D26DD1C4C005DBC0A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E872A26DD1C4C005DBC0A /* LoadingView.swift */; };
 		2E5E872E26DD1C4C005DBC0A /* PhotosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E872B26DD1C4C005DBC0A /* PhotosListView.swift */; };
+		2E5E873126DD1EBB005DBC0A /* PhotoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E872F26DD1EBB005DBC0A /* PhotoRow.swift */; };
+		2E5E873226DD1EBB005DBC0A /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E873026DD1EBB005DBC0A /* PhotoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		2E5E872926DD1C4C005DBC0A /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		2E5E872A26DD1C4C005DBC0A /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		2E5E872B26DD1C4C005DBC0A /* PhotosListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosListView.swift; sourceTree = "<group>"; };
+		2E5E872F26DD1EBB005DBC0A /* PhotoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoRow.swift; sourceTree = "<group>"; };
+		2E5E873026DD1EBB005DBC0A /* PhotoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				2E5E872B26DD1C4C005DBC0A /* PhotosListView.swift */,
 				2E5E872926DD1C4C005DBC0A /* ErrorView.swift */,
 				2E5E872A26DD1C4C005DBC0A /* LoadingView.swift */,
+				2E5E873026DD1EBB005DBC0A /* PhotoDetailView.swift */,
+				2E5E872F26DD1EBB005DBC0A /* PhotoRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,7 +207,9 @@
 				2E5E872E26DD1C4C005DBC0A /* PhotosListView.swift in Sources */,
 				2E5E870326DD05D7005DBC0A /* PhotosApp.swift in Sources */,
 				2E5E871A26DD1400005DBC0A /* APIRequest.swift in Sources */,
+				2E5E873226DD1EBB005DBC0A /* PhotoDetailView.swift in Sources */,
 				2E5E871326DD13F1005DBC0A /* Photo.swift in Sources */,
+				2E5E873126DD1EBB005DBC0A /* PhotoRow.swift in Sources */,
 				2E5E872C26DD1C4C005DBC0A /* ErrorView.swift in Sources */,
 				2E5E872D26DD1C4C005DBC0A /* LoadingView.swift in Sources */,
 			);
