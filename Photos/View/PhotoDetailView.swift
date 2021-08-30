@@ -34,8 +34,9 @@ struct PhotoDetailView: View {
                         .font(.body)
                 }
                 .padding(16)
-                .navigationBarTitleDisplayMode(.inline)
             }
+            .navigationTitle("Photo ID: \(photo.id)")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
